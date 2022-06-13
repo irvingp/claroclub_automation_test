@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+<!-- <parameter name="servicio_1" value="30001585"/> No funciona -->
+<parameter name="servicio_2" value="30015366"/>
+<parameter name="servicio_3" value="29682726"/>
+<parameter name="servicio_4" value="29736428"/>
+<parameter name="servicio_5" value="29753436"/>
+<parameter name="servicio_6" value="30021478"/>
+<parameter name="servicio_7" value="29982839"/>
+<parameter name="servicio_8" value="29973252"/>
+<parameter name="servicio_9" value="29978869"/>
+<parameter name="servicio_10" value="29967853"/>
+<parameter name="servicio_11" value="29937279"/>
+<parameter name="servicio_12" value="29911387"/>
+<parameter name="servicio_13" value="29466656"/>
+
+	
+	<parameter name="email" value="irvingpayan58@gmail.com"/>
+	<parameter name="Phone" value="84217575"/>
+	<parameter name="PhoneCompetition" value="81189683"/>
+	
+	<parameter name="MenuOne" value="¿Qué es Claro Club?"/>
+	<parameter name="MenuTwo" value="Términos y Condiciones"/>
+	<parameter name="MenuThree" value="Preguntas Frecuentes"/>
+	 
+</data>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>	
+	
+	<parameter name="XpathCountry" value="//android.widget.Button[@text='(+503) El Salvador']"/>
+
+	<parameter name="t1XpathWelcomeText" value = "//android.view.View/android.widget.TextView[@text='¡Bienvenido!']"/>
+	
+	<parameter name="t1XpathButtonMobilePhone" value="//android.view.View[1]/android.widget.Button[@text='Ingresar con número móvil']"/>
+	<parameter name="t1XpathNumber" value="//android.view.View[2]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText"/>
+	<parameter name="t1XpathButtonContinue" value="//android.widget.Button[@text='Continuar']"/>
+	<parameter name="t1XpathMessageError" value="//android.widget.TextView[@text='No fue posible autenticarse en Claro Club']"/>
+	<parameter name="t1XpathButtonReturn" value="//android.app.Dialog/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.Button"/>
+	<parameter name="t1XpathButtonBack" value="//android.widget.Button[@text='back']"/>
+	
+	
+	<parameter name="t1XpathButtonClickResidentialService" value="//android.widget.Button[@text='Ingresar con mi servicio residencial']"/>
+	<parameter name="t1XpathButtonCountryContinue" value="//android.widget.Button[@text='Confirmar']"/>
+	<parameter name="t1XpathTextService" value="//android.view.View[2]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText"/>
+	<parameter name="t1XpthTextEmail" value="//android.view.View[3]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText"/>
+	<parameter name="t1XpathTextPhone" value="//android.view.View[4]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText"/>
+	<parameter name="t1XpathButtonGetInto" value="//android.widget.Button[@text='Ingresar']"/>
+	<parameter name="t1XpathMessageError" value="//android.widget.TextView[@text='Contáctanos']"/>
+	<parameter name="t1XpathErrorMessage" value="//android.widget.TextView[@text='Oops! ha ocurrido un error, verifique sus datos e intentalo de nuevo']"/>
+	<parameter name="t1IdPermissions" value="com.android.permissioncontroller:id/permission_allow_foreground_only_button"/>
+	
+	<parameter name="t1XpathLogoClaroClub" value="//android.widget.Image[@text='logo-claro-club']"/>
+	
+	<parameter name="t2XpathButtonMenu" value="//android.widget.Button[@text='menu']"/>
+	<parameter name="t2XpathMenuOne" value="//android.view.View[@content-desc='¿Qué es Claro Club?']/android.view.View/android.view.View/android.widget.TextView"/>
+	<parameter name="t2XpathMenuTwo" value="//android.view.View[@content-desc='Términos y Condiciones']/android.view.View/android.view.View/android.widget.TextView"/>
+	<parameter name="t2XpathMenuThree" value="//android.view.View[@content-desc='Preguntas Frecuentes']/android.view.View/android.view.View/android.widget.TextView"/>
+	
+	<parameter name="t3XpathCoupons" value="//android.view.View[contains(@resource-id, 'claro_club_coupon')]"/>
+	<parameter name="t3XpathButtonFeaturedCopupons" value ="//android.view.View[@content-desc='Destacados']/android.widget.TextView"/>
+	<parameter name="t3XpathButtonPromotionsCoupons" value="//android.view.View[1]/android.widget.TabWidget/android.view.View[1]/android.widget.TextView"/>
+	
+	
+	<parameter name="t4XpathButtonCategories" value="//android.view.View[@content-desc='Cupones']/android.widget.TextView"/>
+	<parameter name="t4XpathCategories" value="//android.view.View[contains(@resource-id, 'category_item')]"/> 
+	
+	<parameter name="t5XpathButtonPerfil" value="//android.view.View[@content-desc='Perfíl']/android.widget.TextView"/>
+	<parameter name="t5XpathTextAhorradoClaroClub" value="//android.widget.TextView[@text='Ahorrado con Claro Club']"/>
+	
+	<parameter name="t6XpathButtonRequestedCoupons" value="//android.view.View[@content-desc='Cupones solicitados']/android.view.View/android.view.View/android.widget.TextView"/>
+	<parameter name="t6XpathButtonGetCoupons" value="//android.widget.Button[@text='OBTENER CUPON']"/>
+	<parameter name="t6XpathButtonOk" value="//android.widget.Button[@text='Entendido']"/>
+	<parameter name="t6XpathCoupons" value="//android.view.View[contains(@resource-id, 'claro_club_coupon')]"/>
+	<parameter name="t6XpathButtonOutstanding" value="//android.view.View[1]/android.widget.TabWidget/android.view.View[2]/android.widget.TextView"/>
+	
+	
+	<parameter name="t7XpathButtonRedeemedCoupons" value="//android.view.View[@content-desc='Cupones canjeados']/android.view.View/android.view.View/android.widget.TextView"/>
+	<parameter name="t7XpathCoupons" value="//android.view.View[contains(@resource-id, 'claro_club_coupon')]"/>
+	
+	<parameter name="t8XpathButtonClaroAgencies" value="//android.view.View[@content-desc='Agencias Claro']/android.view.View/android.view.View/android.widget.TextView"/>
+	<parameter name="t8XpathButtonStateSelector" value="//android.view.View[contains(@resource-id, 'state_selector')]"/>
+	<parameter name="t8XpathButtonState" value="//android.widget.TextView[@text='San Salvador']"/>
+	<parameter name="t8XpathLocations" value="//android.view.View[contains(@resource-id, 'branch_item')]"/>
+	
+	<parameter name="t9XpathButtonConfig" value="//android.view.View[@content-desc='Configuración']/android.view.View/android.view.View/android.widget.TextView"/>
+	<parameter name="t9XpathButtonTheme" value="//android.widget.Button[@text='Tema']"/>
+	<parameter name="t9XpathTogleButtonTheme" value="//android.view.View[2]/android.widget.ToggleButton/android.view.View/android.view.View"/>
+	
+	<parameter name="t10XpathButtonNotification" value="//android.widget.Button[@text='Notificaciones']"/>
+	<parameter name="t10XpathTogleButtonNotification" value="//android.view.View[2]/android.widget.ToggleButton/android.view.View/android.view.View/android.widget.TextView"/>
+	
+</locators>

@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ClaroClubPA" verbose="1">
+		<parameter name="Country" value="PA"></parameter>
+		<test name="Login">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.Login">				
+				</class>
+			</classes>
+		</test>
+		
+		<test name="LateralMenu">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.LateralMenu"></class>
+			</classes>
+		</test>
+		<test name="Coupons">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.Coupons"></class>
+			</classes>
+		</test>
+		<test name="Categories">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.Categories"></class>
+			</classes>
+		</test>
+		<test name="Profile">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.Profile"></class>
+			</classes>
+		</test>
+		<test name="RequestedCoupons">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.RequestedCoupons"></class>
+			</classes>
+		</test>
+		<test name="RedeemedCoupons">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.RedeemedCoupons"></class>
+			</classes>
+		</test>
+		<test name="AgenciesClaro">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.AgenciesClaro"></class>
+			</classes>
+		</test>
+		
+		<test name="Theme">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.Theme"></class>
+			</classes>
+		</test>
+		<test name="Notification">
+			<classes>
+				<class name="com.claro.miclaroclub.mobile.test.Notification"></class>
+			</classes>
+		</test>
+
+</suite>
