@@ -131,8 +131,7 @@ import com.relevantcodes.extentreports.LogStatus;
 					Assert.assertTrue(true);
 					break;		
 			
-			}
-			
+			}		
 			else if(Android.findElements(By.xpath(XpathErrorMessage)).size() > 0 )
 			{
 				TakeScreenShot("Login_Service_"+ param.getValue());

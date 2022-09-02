@@ -27,7 +27,6 @@ public class BaseClass extends AppiumMain {
 		Android =  GetAndroidInstance("Redmi Note 9","059297700405","Android","11 RP1A.200720.011",60,"club.claro","club.claro.MainActivity");
 		report = ExtentManager.getReporter(SuiteName+"ExtendsReport-ClaroClub.html");
 		Provider.setDirectory(Country);
-		
 	}
 	
 	@AfterMethod
