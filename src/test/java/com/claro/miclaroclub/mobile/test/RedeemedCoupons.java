@@ -1,4 +1,4 @@
-package com.claro.miclaroclub.mobile.test;
+	package com.claro.miclaroclub.mobile.test;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

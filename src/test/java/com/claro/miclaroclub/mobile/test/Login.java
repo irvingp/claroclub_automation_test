@@ -23,12 +23,10 @@ import com.relevantcodes.extentreports.LogStatus;
 	@Test(priority = 0,  dataProvider="WelcomeTextProvider", dataProviderClass = LoginProviders.class)
 	public void WelcomeText(String XpathWelcomeText) throws IOException
 	{
-		
 		test.log(LogStatus.INFO, "Verifica texto de bienvenida.");
 		WaitToClik(Android, XpathWelcomeText, 5);
 		TakeScreenShot("Login_1");
-		Assert.assertEquals(Android.findElement(By.xpath(XpathWelcomeText)).isDisplayed(), true);	
-		
+		Assert.assertEquals(Android.findElement(By.xpath(XpathWelcomeText)).isDisplayed(), true);		
 	}
 	@Test(priority=1, dataProvider="EnterWithCompetitorsMobileNumberProvider", dataProviderClass=LoginProviders.class)
 	public void EnterWithCompetitorsMobileNumber(String ButtonMobileNumber, String XpathCountry, String XpathContinue, String CompetitionPhone, String XpathCompetitionPhone, String XpathBtnContinue)
